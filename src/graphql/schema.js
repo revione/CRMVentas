@@ -1,4 +1,4 @@
-const { gql } = require('apollo-server');
+import { gql } from 'graphql-tag';
 
 // Schema
 const typeDefs = gql`
@@ -155,4 +155,4 @@ const typeDefs = gql`
   }
 `;
 
-module.exports = typeDefs;
+export default typeDefs;
